@@ -1,0 +1,53 @@
+/* Snake game styles */
+.snake-board ul {
+  display: grid;
+  grid-template-columns: repeat(30, 1fr);
+  list-style-type: none;
+}
+
+.snake-board .tile {
+  border: 1px solid gray;
+  background-color: antiquewhite;
+  padding:10px;
+}
+
+.snake-board .snake {
+  background-color:black;
+  border:1px solid white;
+}
+
+.snake-board {
+  margin:0 auto;
+  display: block;
+  width:700px;
+}
+
+.snake-board .apple {
+  background-color: red;
+  border:1px solid white;
+}
+
+.snake-board .apples-eaten {
+  width:418px;
+  padding:10px 10px 10px 10px;
+  margin-bottom:5px;
+  border:1px solid gray;
+  background-color:gray;
+  color:white;
+}
+
+/* The notification indicator styles */
+.notification-indicator {
+  background-color: black;
+  color:white;
+  position: fixed;
+  top:0.5rem;
+  right:0.5rem;
+  padding:1rem;
+  border:1px solid white;
+  max-width:10rem;
+}
+
+.notification-indicator div {
+  display: block;
+}
